@@ -1,0 +1,136 @@
+@media screen and (min-width: 700px) {
+  .headers-10 {
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .headers-5 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .headers-5 {
+    font-size: 19px;
+    height: 40px;
+    line-height: 35px;
+    font-weight: 700;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .headers-10 {
+    display: none;
+  }
+}
+.g1 {
+  color: #c4170c;
+}
+.ge {
+  color: #06aa48;
+}
+.gshow {
+  color: #ff6700;
+}
+.g1:hover {
+  color: #f03018;
+}
+.ge:hover {
+  color: #1fb25a;
+}
+.gshow:hover {
+  color: #ff8533;
+}
+@media all and (min-width: 701px) {
+  .oglobo {
+    color: #1e4b9b;
+  }
+  .oglobo:hover {
+    color: #4b70ae;
+  }
+  .valor {
+    color: #006766;
+  }
+  .valor:hover {
+    color: #157472;
+  }
+  .cartola {
+    color: #e3662b;
+  }
+  .cartola:hover {
+    color: #e08256;
+  }
+  .globoplay {
+    color: #fb0735;
+  }
+  .globoplay:hover {
+    color: #f74566;
+  }
+  .dropz {
+    color: #ff75bb;
+  }
+  .dropz:hover {
+    color: #fc9ccc;
+  }
+  .quem {
+    color: #323333;
+  }
+  .quem:hover {
+    color: #5e5e5e;
+  }
+  .receitas {
+    color: #a81d83;
+  }
+  .receitas:hover {
+    color: #b863a1;
+  }
+}
+@media print, screen and (max-width: 700px) {
+  .tech {
+    display: block;
+    color: #666666;
+  }
+  .tech:hover {
+    display: block;
+    color: #9b9b9b;
+  }
+  .videos {
+    display: block;
+    color: #0769de;
+  }
+  .videos:hover {
+    display: block;
+    color: #3e84da;
+  }
+  .g1-n {
+    color: #c4170c;
+  }
+  .ge-n {
+    color: #06aa48;
+  }
+  .gs-n {
+    color: #ff6700;
+  }
+  .g1-n:hover {
+    color: #f03018;
+  }
+  .ge-n:hover {
+    color: #1fb25a;
+  }
+  .gs-n:hover {
+    color: #ff8533;
+  }
+}
